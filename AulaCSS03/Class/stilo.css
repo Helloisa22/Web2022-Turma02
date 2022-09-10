@@ -1,3 +1,11 @@
+*{
+    background-color: darkmagenta;
+}
+
+body{
+    background-image: none;
+}
+
 .pipoca{
     color: yellow;
 }
@@ -17,4 +25,46 @@ h1{
     text-align: center;
 }
 
+section{
+    background-color: aqua;
+}
 
+#paoDeQueijo{
+    background-color: cornflowerblue;
+}
+
+section .dentadura{
+    color: grey;
+    background-color: beige;
+    border: 1px solid greenyellow;
+}
+
+.fundo_texto {
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pao{
+    border: 1px solid greenyellow;
+    text-align: center;
+    background-color: crimson;
+}
+
+#primeiro_nome{
+    background-color: crimson;
+    text-align: center;
+}
+
+#segundoNome{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+
+article h4{
+    text-align: center;
+    border: 2px solid indigo;
+    font-size: 26px;
+}
