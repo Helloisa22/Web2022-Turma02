@@ -1,0 +1,57 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.foto1{
+    float: left;
+}
+
+.foto2{
+    clear: left;
+}
+
+.foto3{
+    clear: left;
+}
+
+
+/* .div1{
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.div2{
+    border: 1px solid red;
+}
+
+.div3{
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid #73AD21;
+}
+
+.div4{
+    border: 1px solid red;
+    clear: left;
+} */
+
+
+.section1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.section2{
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
