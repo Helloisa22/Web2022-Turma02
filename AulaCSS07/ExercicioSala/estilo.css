@@ -3,7 +3,7 @@
     padding: 0;
 } */
 
-.foto1{
+/* .foto1{
     float: left;
 }
 
@@ -13,7 +13,7 @@
 
 .foto3{
     clear: left;
-}
+} */
 
 
 /* .div1{
@@ -42,7 +42,7 @@
 } */
 
 
-.section1{
+/* .section1{
     width: 300px;
     height: 200px;
     border: 1px solid red;
@@ -54,4 +54,24 @@
     padding: 50px;
     border: 1px solid blue;
     box-sizing: border-box;
+} */
+
+p{
+    color: red;
+}
+
+.ex1{
+    display: none;
+}
+
+.ex2{
+    display: inline;
+}
+
+.ex3{
+    display: block;
+}
+
+.ex4{
+    display: inline-block;
 }
