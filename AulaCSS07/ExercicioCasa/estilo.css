@@ -16,12 +16,36 @@ h1{
 }
 
 img{
-    width: 350px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
 }
 
 .firstDiv{
-    padding: 20px;
+    padding: 110px;
     margin: 40px;
-    border: 1px solid #000;
+    border: 2px solid #000;
+}
+
+p{
+    text-align: center;
+}
+
+.firstDivMudanca{
+    float: right;
+}
+
+.firstMud{
+    clear: right;
+}
+
+.figureLeft{
+    float: left;
+}
+
+.figureRight{
+    float: right;
+}
+
+.paraMud{
+    clear: none;
 }
