@@ -1,0 +1,11 @@
+.mylist li:first-child {
+    background: greenyellow;
+}
+
+.mylist li:nth-child(3) {
+    background: grey;
+}
+
+.mylist li:last-child {
+    background: yellow;
+}
