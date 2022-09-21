@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -6,7 +17,7 @@
     "header header header header" 
     "main main . sidebar" 
     "footer footer footer footer"
-    "pipoca pipoca pipoca pipoca"
+    "pipoca pipoca pipoca pipoca";
 ;
 }
 
@@ -33,4 +44,8 @@
 .item-5{
     grid-area: pipoca;
     border: 2px solid fuchsia;
+}
+
+.vouTestar{
+    float: left;
 }
