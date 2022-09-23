@@ -1,3 +1,10 @@
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(4, 25px);
+    grid-template-rows: repeat(4, 25px);
+} */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,41 +18,33 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
     grid-template-areas: 
-    "header header header header" 
-    "main main . sidebar" 
-    "footer footer footer footer"
-    "pipoca pipoca pipoca pipoca";
+        "header header header header"  
+        "main main . sidebar" 
+        "footer footer footer pipoca" ;
 ;
 }
 
 .item-1{
     grid-area: header;
-    border: 2px solid blue;
 }
 
 .item-2{
     grid-area: main;
-    border: 2px solid yellow;
 }
 
 .item-3{
     grid-area: sidebar;
-    border: 2px solid red;
 }
 
 .item-4{
     grid-area: footer;
-    border: 2px solid green;
 }
 
 .item-5{
     grid-area: pipoca;
-    border: 2px solid fuchsia;
 }
 
 .vouTestar{
     float: left;
-}
+} 
