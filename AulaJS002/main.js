@@ -1,36 +1,14 @@
-var teste = "Neste sentido, o início da atividade geral de formação 'de atitudes cumpre um papel essencial na formulação do investimento em reciclagem técnica."
+// let nota1 = 8;
 
-/* \n é igual a tag <br>
-    'Panela velha e que faz comida boa
-*/
+// var nota2 = 5;
 
-// NuN
-// var heloisa = 10;
-// var marcelo = 15;
+// var nota3 = 7;
 
-// console.log(heloisa + marcelo)
+// var nota4 = 10;
 
-// console.log(heloisa - marcelo)
+// var media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-
-// var A = 11
-
-// var imparPar = A%2;
-
-// console.log(imparPar)
-
-
-var heloisa = 10;//number
-var marcelo = "Goiaba";
-
-console.log("O tipo da variavel Heloisa é: " + typeof + heloisa)
-console.log("O tipo da variavel Marcelo é: " + typeof marcelo)
-
-
-
-
-//V  V
-//
+// console.log(`A media dos alunos é ${media}`)
 
 
 
@@ -40,30 +18,22 @@ console.log("O tipo da variavel Marcelo é: " + typeof marcelo)
 
 
 
-/*console.log(heloisa < marcelo) //true
-
-console.log(heloisa > marcelo) //false
-
-console.log(heloisa == marcelo) //false*/
-
-//console.log(marcelo != heloisa >= (colin)) //false
 
 
+var nota = 5
+
+console.log("Gabiela sem Camisa " + 'Mayara sem Camisa ' + "Alunos sem cracha")
+console.log(`Quando a Gabriela está sem a camisa IOS eu vou dar nota ${nota}`)
 
 
+console.clear()
 
 
 
-//var
+// Acessando um caracter de uma String
+var string1 = "Heloisa IOS";
+console.log(string1.length);
 
-let sala = 10;
 
-let sala1 = 5;
-
-sala1 = 30;
-
-//const
-
-const PI = 3.14
-
-PI = 5;
+// console.log(string1[0])
+// console.log(string1.charAt(3))
