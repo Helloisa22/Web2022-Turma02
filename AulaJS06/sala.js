@@ -1,7 +1,7 @@
 /*Criando array unidimensional */
 var array1 = ["Marcelo", 15, "Colin", 47, true]
 console.log(array1);
-console.log(array1[2]);
+console.log(array1[3]);
 console.clear()
 array1[3] = 80;
 console.log(array1)
@@ -47,7 +47,7 @@ console.clear()
 // console.clear()
 
 /* Insere uma informação no final do array*/
-console.clear()
+console.clear()7
 var u = carro.push('Lego');
 console.log(carro)
 console.log(u)
@@ -63,7 +63,6 @@ console.clear()
 var w = carro.unshift("console.log")
 console.log(carro)
 console.log(w)
-
 /*Apagar um elemento do Array
 em uma posição pré selecionada */
 delete carro[1]
