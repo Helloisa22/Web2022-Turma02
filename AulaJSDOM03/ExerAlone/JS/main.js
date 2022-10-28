@@ -6,17 +6,9 @@ const Calcular = () => {
     if(numeroTabuada == ''){
         alert("Insira um valor")
     }else{
-        tabuada.innerHTML = `   ${numeroTabuada} x 2 = ${numeroTabuada * 0}
-                            ${numeroTabuada} x 2 = ${numeroTabuada * 1}
-                            ${numeroTabuada} x 2 = ${numeroTabuada * 2}
-                            ${numeroTabuada} x 2 = ${numeroTabuada * 3}
-                            ${numeroTabuada} x 2 = ${numeroTabuada * 4}
-                            ${numeroTabuada} x 2 = ${numeroTabuada * 5}
-                            ${numeroTabuada} x 2 = ${numeroTabuada * 6} 
-                            ${numeroTabuada} x 2 = ${numeroTabuada * 7}
-                            ${numeroTabuada} x 2 = ${numeroTabuada * 8}
-                            ${numeroTabuada} x 2 = ${numeroTabuada * 9}
-                            ${numeroTabuada} x 2 = ${numeroTabuada * 10}`
+        for(i = 0; i <= 10; i++){
+            tabuada.innerHTML += `${numeroTabuada} x ${[i]} = ${numeroTabuada * [i]} <br/>`
+        }
     }
     console.log(numeroTabuada)
 }
@@ -25,4 +17,3 @@ const Limpar = () => {
     document.querySelector('.my-span').innerHTML="";
     document.querySelector('#numero').value="";
 }
-
