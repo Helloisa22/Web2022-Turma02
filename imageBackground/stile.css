@@ -1,0 +1,18 @@
+body{
+    background:url("./IMG/background.gif") fixed center;
+    margin: 0;
+}
+
+div{
+    border: 2px solid #000;
+    background-color: yellow;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.item-1{
+    margin-bottom: 200px;
+}
